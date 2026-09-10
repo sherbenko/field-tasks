@@ -7,10 +7,10 @@ An Android app for technicians to plan and track work outside the office. Built 
 ## Download and demo
 
 - [Installable Android ARM64 APK](https://github.com/sherbenko/field-tasks/releases/download/v1.0.0/FieldTasks-SA-RN-7842.apk)
-- [Video demonstration — 4 minutes 38 seconds](https://github.com/sherbenko/field-tasks/releases/download/v1.0.0/FieldTasks-SA-RN-7842-demo.mp4)
+- [Video demonstration on Google Drive — 4 minutes 38 seconds](https://drive.google.com/file/d/1j096ooPngFivqZx774pra6geMvYJtAmu/view?usp=sharing)
 - [Release notes and downloads](https://github.com/sherbenko/field-tasks/releases/tag/v1.0.0)
 
-These downloads are public. The assignment specifically requests a Google Drive video link, so also upload the video there before submitting.
+The release also includes a downloadable MP4 copy of the demonstration.
 
 ## Features
 
