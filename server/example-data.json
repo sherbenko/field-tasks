@@ -1,0 +1,56 @@
+{
+  "tasks": [
+    {
+      "id": "example-task-1",
+      "title": "Inspect ventilation system",
+      "description": "Check the equipment, record the result and attach a reference image.",
+      "dueAt": "2030-01-15T09:00:00.000Z",
+      "address": "Yakub Kolas Square, Minsk",
+      "latitude": 53.9154,
+      "longitude": 27.5833,
+      "status": "new",
+      "attachments": [],
+      "createdAt": "2026-09-10T09:00:00.000Z",
+      "updatedAt": "2026-09-10T09:00:00.000Z",
+      "deletedAt": null,
+      "revision": "example-revision-1",
+      "syncState": "synced"
+    },
+    {
+      "id": "example-task-2",
+      "title": "Replace office water filter",
+      "description": "Check the equipment, record the result and attach a reference image.",
+      "dueAt": "2030-01-14T13:00:00.000Z",
+      "address": "Independence Square, Minsk",
+      "latitude": 53.8964,
+      "longitude": 27.5479,
+      "status": "completed",
+      "attachments": [],
+      "createdAt": "2026-09-10T09:00:00.000Z",
+      "updatedAt": "2026-09-10T09:00:00.000Z",
+      "deletedAt": null,
+      "revision": "example-revision-2",
+      "syncState": "synced"
+    }
+  ],
+  "history": [
+    {
+      "id": "example-history-1",
+      "taskId": "example-task-1",
+      "taskTitle": "Inspect ventilation system",
+      "action": "created",
+      "description": "Example task imported with the optional sample dataset.",
+      "at": "2026-09-10T09:00:00.000Z",
+      "syncState": "synced"
+    },
+    {
+      "id": "example-history-2",
+      "taskId": "example-task-2",
+      "taskTitle": "Replace office water filter",
+      "action": "created",
+      "description": "Example task imported with the optional sample dataset.",
+      "at": "2026-09-10T09:00:00.000Z",
+      "syncState": "synced"
+    }
+  ]
+}

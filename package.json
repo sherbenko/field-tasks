@@ -1,0 +1,59 @@
+{
+  "name": "field-tasks",
+  "description": "Offline task planning for field technicians. Candidate SA-RN-7842.",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test:core": "tsx --test tests/*.test.ts",
+    "server": "tsx server/index.ts",
+    "prepare:map": "node scripts/prepare-map.mjs",
+    "postinstall": "npm run prepare:map"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "@hookform/resolvers": "^3.10.0",
+    "@react-native-community/datetimepicker": "^8.6.0",
+    "@react-native-community/netinfo": "^11.5.2",
+    "@react-navigation/bottom-tabs": "^7.18.18",
+    "@react-navigation/native": "^7.3.18",
+    "@react-navigation/native-stack": "^7.18.10",
+    "expo": "~55.0.31",
+    "expo-asset": "~55.0.20",
+    "expo-build-properties": "~55.0.18",
+    "expo-crypto": "~55.0.19",
+    "expo-file-system": "~55.0.26",
+    "expo-font": "~55.0.8",
+    "expo-image-picker": "~55.0.24",
+    "expo-intent-launcher": "~55.0.16",
+    "expo-notifications": "~55.0.27",
+    "expo-sqlite": "~55.0.20",
+    "expo-status-bar": "~55.0.6",
+    "expo-system-ui": "~55.0.22",
+    "leaflet": "^1.9.4",
+    "react": "19.2.0",
+    "react-error-boundary": "^6.1.5",
+    "react-hook-form": "^7.87.0",
+    "react-native": "0.83.10",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-webview": "^13.16.0",
+    "zod": "^3.25.76",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "~19.2.2",
+    "tsx": "^4.23.13",
+    "typescript": "~5.9.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
