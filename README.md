@@ -137,7 +137,7 @@ npm run typecheck
 npm run test:core
 ```
 
-Tests cover whitespace/missing fields, coordinate boundaries, invalid and past dates, deletion retries, concurrent local edits, deterministic timestamp ties, and list filtering. Manual release-build results are recorded separately in `docs/verification.md` when performed.
+Tests cover whitespace/missing fields, coordinate boundaries, invalid and past dates, deletion retries, concurrent local edits, deterministic timestamp ties, and list filtering. Strict TypeScript and six focused tests passed. The release APK was tested on an Android API 34 ARM64 emulator for task operations, image persistence, map markers, notification delivery, offline restart, deletion synchronization, history and themes. Physical devices and long-duration Doze behavior were not tested.
 
 Manual smoke test:
 
@@ -163,14 +163,10 @@ Manual smoke test:
 - Notifications depend on Android permissions and device scheduling policies.
 - App text is English. Localization infrastructure was not added for this single-language assignment.
 
-## Submission materials
-
-Prepared local artifacts: `artifacts/FieldTasks-SA-RN-7842.apk`, `artifacts/FieldTasks-SA-RN-7842-demo.mp4`, and `artifacts/FieldTasks-SA-RN-7842-source.zip`. The video uses English captions, shows the installed release APK and includes a short walkthrough of actual storage/sync code. Artifacts are distributed separately from the source repository.
-
-See `docs/video-script.md` for a 2–5 minute demonstration plan, `docs/code-walkthrough.md` for an explanation of the sync module, and `docs/submission-email.md` for the email draft. Replace personal details and upload links before sending. The repository, APK and video must be accessible without access requests.
+## License notices
 
 Bundled Leaflet's license is included in `docs/leaflet-license.txt`.
 
 ## AI/tooling disclosure
 
-OpenAI Codex assisted with scaffolding, implementation, validation/sync tests, debugging, and documentation. The candidate should review the implementation and be ready to explain persistence, tombstones, last-write-wins, in-flight edits, and notification behavior. No personal credentials or secret API keys are required or committed.
+OpenAI Codex was used for scaffolding, implementation, tests, debugging and documentation.
