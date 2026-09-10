@@ -4,6 +4,14 @@ An Android app for technicians to plan and track work outside the office. Built 
 
 **Candidate code: SA-RN-7842** — visible in Settings and required in the video.
 
+## Download and demo
+
+- [Installable Android ARM64 APK](https://github.com/sherbenko/field-tasks/releases/download/v1.0.0/FieldTasks-SA-RN-7842.apk)
+- [Video demonstration — 4 minutes 38 seconds](https://github.com/sherbenko/field-tasks/releases/download/v1.0.0/FieldTasks-SA-RN-7842-demo.mp4)
+- [Release notes and downloads](https://github.com/sherbenko/field-tasks/releases/tag/v1.0.0)
+
+These downloads are public. The assignment specifically requests a Google Drive video link, so also upload the video there before submitting.
+
 ## Features
 
 - Create, edit and delete tasks with validated title, description, due date, manual address, coordinates and images.

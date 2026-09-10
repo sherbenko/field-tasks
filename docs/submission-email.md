@@ -8,9 +8,9 @@ My name is [Full Name]. Please find my completed React Native assignment, Field 
 
 - Candidate code: **SA-RN-7842** (also shown in the app, README and video).
 - Recruiting profile: [direct profile link].
-- Source repository: [accessible repository URL].
-- Android APK: [direct unrestricted Google Drive link, or attach the APK].
-- Video demonstration: [direct unrestricted Google Drive link].
+- Source repository: https://github.com/sherbenko/field-tasks
+- Android APK: attach FieldTasks-SA-RN-7842.apk, available at https://github.com/sherbenko/field-tasks/releases/download/v1.0.0/FieldTasks-SA-RN-7842.apk
+- Video demonstration: [direct unrestricted Google Drive link; upload the video from https://github.com/sherbenko/field-tasks/releases/download/v1.0.0/FieldTasks-SA-RN-7842-demo.mp4].
 - My CV is attached as a PDF.
 
 I used React Native with Expo SDK 55 and TypeScript, SQLite for transactional local storage, Zustand for UI snapshots, React Hook Form and Zod for typed validation, React Navigation for screens, and Expo modules for image access and local notifications. Leaflet/OpenStreetMap inside a WebView provides a map without requiring a private API key. A small Node.js REST server persists mock data to a JSON file.

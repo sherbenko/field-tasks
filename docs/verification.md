@@ -42,4 +42,4 @@ The final offline recording also verified creation without Wi-Fi/mobile data, pe
 - `artifacts/FieldTasks-SA-RN-7842-demo.mp4`: captioned demonstration of the installed APK, followed by an explanation using actual storage and sync source excerpts. Creation and offline sections play at 1.2×; the notification section remains at real-time speed. No voiceover is included.
 - `artifacts/FieldTasks-SA-RN-7842-source.zip`: source package excluding dependencies, generated native projects, local server data and binaries.
 
-Public repository/Drive uploads and submission email sending have not been performed. Personal details and CV must be supplied by the candidate.
+The public repository is https://github.com/sherbenko/field-tasks; APK and video downloads are provided through its v1.0.0 release. Google Drive uploads and submission email sending have not been performed. Personal details and CV must be supplied by the candidate.
